@@ -10,8 +10,9 @@ const uiRouter = require('angular-ui-router')
 const ngTouch = require('angular-touch')
 const ngAnimate = require('angular-animate')
 const ngFileUpload = require('ng-file-upload')
+const uiBootstrap = require('angular-ui-bootstrap')
 
-angular.module('angularPhotoGallery', [ngTouch, ngAnimate, uiRouter, ngFileUpload])
+angular.module('angularPhotoGallery', [ngTouch, ngAnimate, uiRouter, ngFileUpload, uiBootstrap])
 
 angular.module('angularPhotoGallery').config(['$httpProvider', corsSettings])
 
